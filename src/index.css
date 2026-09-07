@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-navy: #01122b;
+  --color-ink: #00081f;
+  --color-bloom: #000f94;
+  --color-mid: #002561;
+  --color-soft: #64748b;
+  --color-paper: #f7f8fb;
+  --color-line: #e2e8f0;
+  --font-body: 'Manrope Variable', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  min-height: 100dvh;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-paper);
+  color: var(--color-navy);
+}
